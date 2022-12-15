@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Rubik Spray Paint', cursive;
+}
+
+.posicionamiento{
+
+    width: 900px;
+    height: 900px;
+    background: hotpink;
+    margin: 50px auto;
+    text-align: center;
+    color: #333533;
+    position: relative;
+
+}
+
+.static{
+    width: 100px;
+    height: 100px;
+    background: #ffe45e;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.absolute{
+    width: 100px;
+    height: 100px;
+    background: chartreuse;
+    line-height: 100px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    /* activar propiedades en X Y Z-INDEX */
+    left: 600px;
+    top: 650px;
+
+}
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background: #8ea8c3;
+    line-height: 100px;
+    font-weight: bold;
+    position: fixed;
+    /* activar propiedades en X Y Z-INDEX */
+    right: 500px;
+    top: 850px;
+
+}
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background: #f85e00;
+    line-height: 100px;
+    font-weight: bold;
+    position: relative;
+    /* activar propiedades en X Y Z-INDEX */
+    left: 400px;
+    top: 350px;
+
+}
+
+
+
+
+
