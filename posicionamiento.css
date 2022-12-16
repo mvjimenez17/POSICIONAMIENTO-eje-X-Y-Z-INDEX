@@ -12,30 +12,43 @@ body{
 }
 
 .posicionamiento{
-
-    width: 900px;
-    height: 900px;
-    background: hotpink;
+    width: 500px;
+    height: 500px;
+    background: #ffffff;
     margin: 50px auto;
     text-align: center;
     color: #333533;
     position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 40px;
+}
 
+.title{
+    border-bottom: 3px solid black;
 }
 
 .static{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: #ffe45e;
-    line-height: 100px;
+    line-height: 150px;
     font-weight: bold;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .absolute{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: chartreuse;
-    line-height: 100px;
+    line-height: 150px;
     font-weight: bold;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -44,35 +57,43 @@ body{
     -o-border-radius: 50%;
     position: absolute;
     /* activar propiedades en X Y Z-INDEX */
-    left: 600px;
-    top: 650px;
+    left: 300px;
+    top: 350px;
 
 }
 
 .fixed{
-    width: 100px;
-    height: 100px;
-    background: #8ea8c3;
-    line-height: 100px;
+    width: 150px;
+    height: 150px;
+    background: #ff4d6d;
+    line-height: 150px;
     font-weight: bold;
     position: fixed;
-    /* activar propiedades en X Y Z-INDEX */
-    right: 500px;
-    top: 850px;
-
+    /*activarpropiedadesenXYZ-INDEX*/
+    right: 690px;
+    top: 150px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 
 .relative{
-    width: 100px;
-    height: 100px;
-    background: #f85e00;
-    line-height: 100px;
+    width: 150px;
+    height: 150px;
+    background: #00bbf9;
+    line-height: 150px;
     font-weight: bold;
     position: relative;
-    /* activar propiedades en X Y Z-INDEX */
-    left: 400px;
-    top: 350px;
-
+    /*activarpropiedadesenXYZ-INDEX*/
+    left: 90px;
+    top: 100px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 
 
