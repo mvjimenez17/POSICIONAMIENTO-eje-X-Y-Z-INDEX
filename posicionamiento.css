@@ -59,6 +59,7 @@ body{
     /* activar propiedades en X Y Z-INDEX */
     left: 300px;
     top: 350px;
+    /* z-index: -10; */
 
 }
 
@@ -77,6 +78,7 @@ body{
     -moz-border-radius:20px;
     -ms-border-radius:20px;
     -o-border-radius:20px;
+    z-index: 10px;
 }
 
 .relative{
@@ -87,7 +89,7 @@ body{
     font-weight: bold;
     position: relative;
     /*activarpropiedadesenXYZ-INDEX*/
-    left: 90px;
+    left: 290px;
     top: 100px;
     border-radius:20px;
     -webkit-border-radius:20px;
@@ -95,6 +97,88 @@ body{
     -ms-border-radius:20px;
     -o-border-radius:20px;
 }
+
+.contenedor1{
+
+    width: 500px;
+    height: 500px;
+    background: #ffffff;
+    margin: 50px auto;
+    text-align: center;
+    color: #333533;
+    position: relative;
+    /* position: absolute; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 40px;
+
+}
+
+.z{
+   text-shadow: 3px 3px 5px #333533; 
+   border-bottom: 2px solid #ff4d6d; 
+}
+
+
+.item1{
+
+    width: 150px;
+    height: 150px;
+    background: #00bbf9;
+    line-height: 150px;
+    font-weight: bold;
+    position: relative;
+    /*activarpropiedadesenXYZ-INDEX*/
+
+
+    
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+
+}
+
+.item2{
+
+    width: 150px;
+    height: 150px;
+    background: #f0a6ca;
+    line-height: 150px;
+    font-weight: bold;
+    position: relative;
+    /*activarpropiedadesenXYZ-INDEX*/
+
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+
+}
+
+.contenedor2{
+    width: 150px;
+    height: 150px;
+    background: #9b5de5;
+    line-height: 150px;
+    font-weight: bold;
+    position: relative;
+    margin: 50px auto;
+    /*activarpropiedadesenXYZ-INDEX*/
+
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+
+}
+
 
 
 
